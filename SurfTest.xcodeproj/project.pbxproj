@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F17747AB26B302C800FC4507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17747AA26B302C800FC4507 /* AppDelegate.swift */; };
 		F17747AD26B302C800FC4507 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17747AC26B302C800FC4507 /* SceneDelegate.swift */; };
-		F17747AF26B302C800FC4507 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17747AE26B302C800FC4507 /* ViewController.swift */; };
 		F17747B426B302CA00FC4507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17747B326B302CA00FC4507 /* Assets.xcassets */; };
 		F17747C226B302CB00FC4507 /* SurfTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17747C126B302CB00FC4507 /* SurfTestTests.swift */; };
 		F17747CD26B302CB00FC4507 /* SurfTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17747CC26B302CB00FC4507 /* SurfTestUITests.swift */; };
@@ -56,7 +55,6 @@
 		F17747A726B302C800FC4507 /* SurfTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17747AA26B302C800FC4507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F17747AC26B302C800FC4507 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F17747AE26B302C800FC4507 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F17747B326B302CA00FC4507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F17747B826B302CA00FC4507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F17747BD26B302CA00FC4507 /* SurfTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SurfTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,13 +133,12 @@
 		F17747A926B302C800FC4507 /* SurfTest */ = {
 			isa = PBXGroup;
 			children = (
-				F177484426B307AB00FC4507 /* Services */,
-				F177482E26B3073B00FC4507 /* Controller */,
-				F17747FD26B3063900FC4507 /* View */,
-				F17747E526B305F200FC4507 /* Model */,
-				F17747DF26B305B100FC4507 /* Helpers */,
 				F17747DE26B304D500FC4507 /* App */,
-				F17747AE26B302C800FC4507 /* ViewController.swift */,
+				F177484426B307AB00FC4507 /* Services */,
+				F17747E526B305F200FC4507 /* Model */,
+				F17747FD26B3063900FC4507 /* View */,
+				F177482E26B3073B00FC4507 /* Controller */,
+				F17747DF26B305B100FC4507 /* Helpers */,
 				F17747B826B302CA00FC4507 /* Info.plist */,
 			);
 			path = SurfTest;
@@ -228,8 +225,8 @@
 		F177482E26B3073B00FC4507 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F177483426B3075100FC4507 /* Friends */,
 				F177482F26B3074C00FC4507 /* LoginViewController.swift */,
+				F177483426B3075100FC4507 /* Friends */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -395,7 +392,6 @@
 				F17747EC26B3061200FC4507 /* Lorem.swift in Sources */,
 				F177481F26B3069C00FC4507 /* SearchView.swift in Sources */,
 				F177481526B3069000FC4507 /* AvatarView.swift in Sources */,
-				F17747AF26B302C800FC4507 /* ViewController.swift in Sources */,
 				F177483626B3076000FC4507 /* FriendsTableViewController.swift in Sources */,
 				F17747F626B3061E00FC4507 /* Photos.swift in Sources */,
 				F177485026B307CB00FC4507 /* Repository.swift in Sources */,
