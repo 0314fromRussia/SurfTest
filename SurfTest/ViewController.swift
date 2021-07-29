@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  SurfTest
-//
-//  Created by Никита Дмитриев on 29.07.2021.
-//
+
 
 import UIKit
 

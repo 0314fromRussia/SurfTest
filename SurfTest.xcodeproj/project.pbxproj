@@ -24,6 +24,12 @@
 		F177481526B3069000FC4507 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177481426B3069000FC4507 /* AvatarView.swift */; };
 		F177481A26B3069600FC4507 /* LetterPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177481926B3069600FC4507 /* LetterPicker.swift */; };
 		F177481F26B3069C00FC4507 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177481E26B3069C00FC4507 /* SearchView.swift */; };
+		F177482526B3071200FC4507 /* FriendsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177482426B3071200FC4507 /* FriendsCollectionCell.swift */; };
+		F177482A26B3071900FC4507 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177482926B3071900FC4507 /* FriendsTableViewCell.swift */; };
+		F177483026B3074C00FC4507 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177482F26B3074C00FC4507 /* LoginViewController.swift */; };
+		F177483626B3076000FC4507 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177483526B3076000FC4507 /* FriendsTableViewController.swift */; };
+		F177483B26B3076600FC4507 /* FriendsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177483A26B3076600FC4507 /* FriendsCollectionViewController.swift */; };
+		F177484026B3076C00FC4507 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177483F26B3076C00FC4507 /* GalleryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,12 @@
 		F177481426B3069000FC4507 /* AvatarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		F177481926B3069600FC4507 /* LetterPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterPicker.swift; sourceTree = "<group>"; };
 		F177481E26B3069C00FC4507 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F177482426B3071200FC4507 /* FriendsCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCollectionCell.swift; sourceTree = "<group>"; };
+		F177482926B3071900FC4507 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		F177482F26B3074C00FC4507 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F177483526B3076000FC4507 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
+		F177483A26B3076600FC4507 /* FriendsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewController.swift; sourceTree = "<group>"; };
+		F177483F26B3076C00FC4507 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +129,7 @@
 		F17747A926B302C800FC4507 /* SurfTest */ = {
 			isa = PBXGroup;
 			children = (
+				F177482E26B3073B00FC4507 /* Controller */,
 				F17747FD26B3063900FC4507 /* View */,
 				F17747E526B305F200FC4507 /* Model */,
 				F17747DF26B305B100FC4507 /* Helpers */,
@@ -177,6 +190,7 @@
 		F17747FD26B3063900FC4507 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F177482326B3070400FC4507 /* Cell */,
 				F177480E26B3067000FC4507 /* Custom */,
 				F17747FE26B3065300FC4507 /* Main.storyboard */,
 				F177480326B3065C00FC4507 /* LaunchScreen.storyboard */,
@@ -193,6 +207,34 @@
 				F177481E26B3069C00FC4507 /* SearchView.swift */,
 			);
 			path = Custom;
+			sourceTree = "<group>";
+		};
+		F177482326B3070400FC4507 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F177482426B3071200FC4507 /* FriendsCollectionCell.swift */,
+				F177482926B3071900FC4507 /* FriendsTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F177482E26B3073B00FC4507 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F177483426B3075100FC4507 /* Friends */,
+				F177482F26B3074C00FC4507 /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F177483426B3075100FC4507 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				F177483526B3076000FC4507 /* FriendsTableViewController.swift */,
+				F177483A26B3076600FC4507 /* FriendsCollectionViewController.swift */,
+				F177483F26B3076C00FC4507 /* GalleryViewController.swift */,
+			);
+			path = Friends;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,15 +368,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F17747E726B3060A00FC4507 /* Session.swift in Sources */,
+				F177482526B3071200FC4507 /* FriendsCollectionCell.swift in Sources */,
 				F177481A26B3069600FC4507 /* LetterPicker.swift in Sources */,
+				F177483026B3074C00FC4507 /* LoginViewController.swift in Sources */,
+				F177483B26B3076600FC4507 /* FriendsCollectionViewController.swift in Sources */,
+				F177482A26B3071900FC4507 /* FriendsTableViewCell.swift in Sources */,
 				F17747F126B3061800FC4507 /* Friends.swift in Sources */,
 				F17747EC26B3061200FC4507 /* Lorem.swift in Sources */,
 				F177481F26B3069C00FC4507 /* SearchView.swift in Sources */,
 				F177481526B3069000FC4507 /* AvatarView.swift in Sources */,
 				F17747AF26B302C800FC4507 /* ViewController.swift in Sources */,
+				F177483626B3076000FC4507 /* FriendsTableViewController.swift in Sources */,
 				F17747F626B3061E00FC4507 /* Photos.swift in Sources */,
 				F17747AB26B302C800FC4507 /* AppDelegate.swift in Sources */,
 				F17747AD26B302C800FC4507 /* SceneDelegate.swift in Sources */,
+				F177484026B3076C00FC4507 /* GalleryViewController.swift in Sources */,
 				F177481026B3068A00FC4507 /* LikeControl.swift in Sources */,
 				F17747E126B305D900FC4507 /* UIImageExtension.swift in Sources */,
 			);
