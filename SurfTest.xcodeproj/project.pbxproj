@@ -30,6 +30,9 @@
 		F177483626B3076000FC4507 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177483526B3076000FC4507 /* FriendsTableViewController.swift */; };
 		F177483B26B3076600FC4507 /* FriendsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177483A26B3076600FC4507 /* FriendsCollectionViewController.swift */; };
 		F177484026B3076C00FC4507 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177483F26B3076C00FC4507 /* GalleryViewController.swift */; };
+		F177484626B307BE00FC4507 /* VkAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177484526B307BE00FC4507 /* VkAPIService.swift */; };
+		F177484B26B307C500FC4507 /* VKResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177484A26B307C500FC4507 /* VKResponse.swift */; };
+		F177485026B307CB00FC4507 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F177484F26B307CB00FC4507 /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,9 @@
 		F177483526B3076000FC4507 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
 		F177483A26B3076600FC4507 /* FriendsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCollectionViewController.swift; sourceTree = "<group>"; };
 		F177483F26B3076C00FC4507 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		F177484526B307BE00FC4507 /* VkAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VkAPIService.swift; sourceTree = "<group>"; };
+		F177484A26B307C500FC4507 /* VKResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKResponse.swift; sourceTree = "<group>"; };
+		F177484F26B307CB00FC4507 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +135,7 @@
 		F17747A926B302C800FC4507 /* SurfTest */ = {
 			isa = PBXGroup;
 			children = (
+				F177484426B307AB00FC4507 /* Services */,
 				F177482E26B3073B00FC4507 /* Controller */,
 				F17747FD26B3063900FC4507 /* View */,
 				F17747E526B305F200FC4507 /* Model */,
@@ -235,6 +242,16 @@
 				F177483F26B3076C00FC4507 /* GalleryViewController.swift */,
 			);
 			path = Friends;
+			sourceTree = "<group>";
+		};
+		F177484426B307AB00FC4507 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F177484526B307BE00FC4507 /* VkAPIService.swift */,
+				F177484A26B307C500FC4507 /* VKResponse.swift */,
+				F177484F26B307CB00FC4507 /* Repository.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,14 +391,17 @@
 				F177483B26B3076600FC4507 /* FriendsCollectionViewController.swift in Sources */,
 				F177482A26B3071900FC4507 /* FriendsTableViewCell.swift in Sources */,
 				F17747F126B3061800FC4507 /* Friends.swift in Sources */,
+				F177484B26B307C500FC4507 /* VKResponse.swift in Sources */,
 				F17747EC26B3061200FC4507 /* Lorem.swift in Sources */,
 				F177481F26B3069C00FC4507 /* SearchView.swift in Sources */,
 				F177481526B3069000FC4507 /* AvatarView.swift in Sources */,
 				F17747AF26B302C800FC4507 /* ViewController.swift in Sources */,
 				F177483626B3076000FC4507 /* FriendsTableViewController.swift in Sources */,
 				F17747F626B3061E00FC4507 /* Photos.swift in Sources */,
+				F177485026B307CB00FC4507 /* Repository.swift in Sources */,
 				F17747AB26B302C800FC4507 /* AppDelegate.swift in Sources */,
 				F17747AD26B302C800FC4507 /* SceneDelegate.swift in Sources */,
+				F177484626B307BE00FC4507 /* VkAPIService.swift in Sources */,
 				F177484026B3076C00FC4507 /* GalleryViewController.swift in Sources */,
 				F177481026B3068A00FC4507 /* LikeControl.swift in Sources */,
 				F17747E126B305D900FC4507 /* UIImageExtension.swift in Sources */,
